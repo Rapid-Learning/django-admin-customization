@@ -4,6 +4,7 @@ from .models import Customer
 
 class CustomerForm(forms.ModelForm):
     confirm_password = forms.CharField(max_length=30)
+    
 class CustomerAdmin(admin.ModelAdmin):
     form = CustomerForm
 
