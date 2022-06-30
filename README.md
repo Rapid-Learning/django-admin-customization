@@ -1,2 +1,2 @@
-# django-admin-customization
+# Django-admin-customization
 Django admin customization
